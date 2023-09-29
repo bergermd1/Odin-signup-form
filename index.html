@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
     <title>Sign-up Form</title>
 </head>
 <body>
@@ -50,23 +51,25 @@
                                 <label for="email">EMAIL</label>
                                 <br>
                                 <input type="email" id="email" name="email">
+                                <div class="error"></div>
                             </div>
                             <div>
                                 <label for="number">PHONE NUMBER</label>
                                 <br>
-                                <input type="text" id="number">
+                                <input type="tel" id="number" name="number">
                             </div>
                         </div>
                         <div class="form-row">
                             <div>
                                 <label for="pwd">PASSWORD</label>
                                 <br>
-                                <input type="pwd" id="pwd" name="pwd">
+                                <input type="password" id="pwd" name="pwd">
+                                <div class="error"></div>
                             </div>
                             <div>
                                 <label for="confirmpwd">CONFIRM PASSWORD</label>
                                 <br>
-                                <input type="pwd" id="confirmpwd" name="confirmpwd">
+                                <input type="password" id="confirm-pwd" name="confirmpwd">
                             </div>
                         </div>
                     </form>
